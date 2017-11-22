@@ -7,9 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  color = ["red", "orange", "blue", "white"]
-  color << "yellow"
-  puts color.inspect
+  array = ["red", "orange", "blue", "white"]
+  array << "yellow"
 end
 
 def add_element_to_start_of_array(array, element)
